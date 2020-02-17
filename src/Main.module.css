@@ -1,4 +1,28 @@
 .main{
     height: 100vh;
     background-color: #e1c29d;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.conteiner{
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.greeting{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    height: 400px;
+    width: 300px;
+    background-color: #dbc6e1;
 }

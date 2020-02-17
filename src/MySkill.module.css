@@ -1,0 +1,21 @@
+.mySkill {
+    width: 25%;
+    height: 100%;
+    background-color: #bfa9e1;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo {
+    background-color: #e1de96;
+    width: 50%;
+    height: 40%;
+}
+
+.description {
+    border: 1px solid;
+    height: 50%;
+}

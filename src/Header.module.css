@@ -1,4 +1,14 @@
 .header{
     height: 50px;
     background-color: #e1de96;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner{
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }

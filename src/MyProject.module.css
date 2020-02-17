@@ -1,0 +1,25 @@
+.myProject {
+    width: 40%;
+    height: 100%;
+    background-color: rgba(126, 219, 110, 0.97);
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.photo {
+    background-color: #e1cdce;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    border: 1px solid;
+    height: 20%;
+    width: 100%;
+}
