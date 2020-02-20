@@ -5,10 +5,21 @@
     justify-content: center;
 }
 
-.conteiner{
-    border: 1px solid;
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+@media (max-width: 760px) {
+    .conteiner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+@media (min-width: 761px) {
+    .conteiner{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+

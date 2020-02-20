@@ -1,22 +1,41 @@
 .slogan{
-    height: 250px;
     background-color: #e1c7b5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.conteiner {
-    border: 1px solid;
-    height: 65%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+@media (max-width: 760px) {
+    .slogan {
+        height: 200px;
+    }
+    .conteiner {
+        height: 65%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    } 
 }
 
+@media (min-width: 761px) {
+    .slogan {
+        height: 250px;
+    }
+    .conteiner {
+        height: 65%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
 .conteiner button{
-    width: 20%;
-    height: 25%;
+    width: 120px;
+    height: 40px;
 }

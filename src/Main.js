@@ -8,7 +8,7 @@ function Main() {
         <div className={s.greeting}>
           <span>Привет!</span>
           <span>Меня зовут Белявская Александра!</span>
-          <span>Я front-end разработчик.</span>
+          <span>Blablabla</span>
         </div>
         <div className={s.photo}>
           <img src="" alt=""/>
