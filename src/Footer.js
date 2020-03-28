@@ -13,7 +13,7 @@ function Footer() {
           <Network/>
           <Network/>
         </div>
-        © Все права защищены
+        
       </div>
     </div>
   );
