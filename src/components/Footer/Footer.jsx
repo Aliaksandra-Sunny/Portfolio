@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./Footer.module.css"
-import Network from "./Network";
+import Network from "./Network/Network";
 
 function Footer() {
   return (

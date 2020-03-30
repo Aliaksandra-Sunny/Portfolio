@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./Skills.module.css"
-import MySkill from "./MySkill";
+import MySkill from "./MySkill/MySkill";
 
 function Skills() {
   return (

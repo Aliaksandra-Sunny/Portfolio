@@ -12,7 +12,7 @@ function Main() {
                     {/*<FontAwesomeIcon icon={faReact}/>*/}
                     {/*<FontAwesomeIcon icon={faEnvelope}/>*/}
                     <span>Hello!</span>
-                    <span>I'm <span>Belyavskaya Alexandra</span></span>
+                    <span>I'm <span>Belyavskaya <span>Alexandra</span></span></span>
                     <h1>A front-end developer</h1>
                 </div>
                 <div className={s.photo}>
