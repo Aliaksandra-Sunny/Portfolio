@@ -37,7 +37,17 @@
     flex-direction: column;
 }
 
-.greeting span:nth-child(2) {
+.greeting span:nth-child(2) span:before{
+    content: "";
+    position: absolute;
+    width: 710px;
+    height: 20px;
+    background-color: cornflowerblue;
+    bottom: 0;
+    z-index: 0;
+}
+
+.greeting span:nth-child(2), .greeting span:nth-child(2) span{
     font-size: 50px;
     font-weight: 700;
     font-stretch: normal;
@@ -45,6 +55,7 @@
     padding: 10px 0 10px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
+    position: relative;
 }
 
 h1{
