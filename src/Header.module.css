@@ -1,8 +1,10 @@
 .header{
     height: 50px;
-    background-color: #e1de96;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
 }
 
 @media (max-width: 760px) {
