@@ -1,6 +1,7 @@
 import React from 'react';
 import s from "./Contacts.module.css"
 import Heading from "../Elements/Heading/Heading";
+import Button from "../Elements/Button/Button";
 
 function Contacts() {
     return (
@@ -19,7 +20,7 @@ function Contacts() {
                             <textarea placeholder="Your message" className={s.formItem}/>
                         </div>
                     </form>
-                    <input type="submit"/>
+                 <Button name={"Send"}/>
                 </div>
             </div>
         </div>
