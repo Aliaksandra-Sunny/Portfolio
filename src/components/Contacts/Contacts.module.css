@@ -4,7 +4,10 @@
     min-height: 65vh;
     justify-content: center;
     padding: 40px;
+}
 
+input, button, textarea{
+    margin: 0;
 }
 
 .container {
@@ -14,25 +17,42 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.form{
+     display: flex;
+     flex-direction: column;
+     width: 350px;
+     height: 70%;
+     justify-content: space-between;
+     align-items: center;
+ }
+
 .form form{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 70%;
-    justify-content: space-between;
+    width: 100%;
 }
 
-.form form input{
-    height: 80px;
+.formItem{
+    background: #252527 !important;
+    border: 1px solid #4a4a4a;
+    font-size: 12px;
+    border-radius: 0;
+    width: 100%;
+    color: #495057;
+    padding: .375rem .75rem;
 }
 
-.form form textarea{
+input.formItem{
+    height: 40px;
+
+}
+
+textarea.formItem{
     height: 130px;
 }
 
-.form>input{
-    width: 140px;
-    height: 40px;
+.formContainer{
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 @media (max-width: 760px) {
