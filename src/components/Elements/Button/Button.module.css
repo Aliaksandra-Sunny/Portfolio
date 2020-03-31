@@ -1,0 +1,53 @@
+.button{
+    display: block;
+    font: 400 14px/1.2 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 7px 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out 0s;
+    background: transparent;
+    color: #fff;
+    max-width: 170px;
+    margin: 15px auto;
+    z-index: 22;
+    text-align: center;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    position: relative;
+}
+
+.button:hover{
+    animation: fadeInUp;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    width: 50%;
+    background: #4e93e6;
+    z-index: -1;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+@keyframes fadeInUp {
+0% {
+    opacity: 0;
+    transform: translateY(20px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+}
+}

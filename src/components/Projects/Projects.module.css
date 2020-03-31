@@ -1,8 +1,9 @@
 .projects {
+    min-height: calc(100vh);
     background-color: #1f1f20;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 40px;
 }
 
 .container {
@@ -27,11 +28,7 @@
     }
 }
 
-@media (min-width: 761px) {
-    .projects {
-        height: 100vh;
-    }
-
+@media (min-width: 760px) {
     .myProjects {
         display: flex;
         justify-content: space-around;
