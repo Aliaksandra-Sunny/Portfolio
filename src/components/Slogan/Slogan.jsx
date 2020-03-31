@@ -1,11 +1,12 @@
 import React from 'react';
 import s from "./Slogan.module.css"
+import Heading from "../Elements/Heading/Heading";
 
 function Slogan() {
   return (
     <div className={s.slogan}>
-      <div className={s.conteiner}>
-          <h3> Рассматриваю варианты удаленной работы</h3>
+      <div className={s.container}>
+          <Heading name={"I am available for Freelancer"}/>
         <button>Нанять меня</button>
       </div>
     </div>

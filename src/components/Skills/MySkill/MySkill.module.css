@@ -1,8 +1,6 @@
 .mySkill {
     width: 280px;
     height: 400px;
-    background-color: #bfa9e1;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,12 +8,11 @@
 }
 
 .photo {
-    background-color: #e1de96;
+    background-color: #ffffff;
     width: 50%;
     height: 40%;
 }
 
 .description {
-    border: 1px solid;
     height: 50%;
 }

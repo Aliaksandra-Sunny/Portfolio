@@ -1,4 +1,4 @@
-.footer{
+.footer {
     padding: 10px;
     background-color: #252527;
     display: flex;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 760px) {
-    .conteiner {
+    .container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -16,8 +16,6 @@
     }
 
     .networks {
-        border: 1px solid;
-        display: flex;
         display: flex;
         width: 100%;
         justify-content: space-around;
@@ -30,7 +28,7 @@
         height: 300px;
     }
 
-    .conteiner {
+    .container {
         height: 70%;
         width: 80%;
         display: flex;
@@ -40,8 +38,7 @@
     }
 
     .networks {
-        border: 1px solid;
-        width: 40%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
         align-items: center;

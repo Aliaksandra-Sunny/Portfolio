@@ -2,14 +2,11 @@
     background-color: #252527;
     display: flex;
     justify-content: center;
-    align-items: center;
+    min-height: 200px;
 }
 
 @media (max-width: 760px) {
-    .slogan {
-        height: 200px;
-    }
-    .conteiner {
+    .container {
         height: 65%;
         width: 100%;
         display: flex;
@@ -20,10 +17,7 @@
 }
 
 @media (min-width: 761px) {
-    .slogan {
-        height: 250px;
-    }
-    .conteiner {
+    .container {
         height: 65%;
         width: 80%;
         display: flex;
@@ -35,7 +29,7 @@
 
 
 
-.conteiner button{
+.container button{
     width: 120px;
     height: 40px;
 }

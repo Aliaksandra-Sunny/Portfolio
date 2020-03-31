@@ -1,12 +1,13 @@
 import React from 'react';
 import s from "./Footer.module.css"
 import Network from "./Network/Network";
+import Heading from "../Elements/Heading/Heading";
 
 function Footer() {
   return (
     <div className={s.footer}>
-      <div className={s.conteiner}>
-        <h3> Белявская Александра</h3>
+      <div className={s.container}>
+        <Heading name={"Alexandra"}/>
         <div className={s.networks}>
           <Network/>
           <Network/>
