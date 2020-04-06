@@ -3,7 +3,7 @@
     display: flex;
     min-height: 65vh;
     justify-content: center;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 input, button, textarea{
@@ -21,13 +21,16 @@ input, button, textarea{
 .form{
      display: flex;
      flex-direction: column;
-     width: 350px;
+     width: 400px;
      height: 70%;
      justify-content: space-between;
      align-items: center;
  }
 
 .form form{
+    margin: 0;
+    padding: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -36,7 +39,7 @@ input, button, textarea{
     border: 1px solid #4a4a4a;
     font-size: 12px;
     border-radius: 0;
-    width: 100%;
+    width: 90%;
     color: #495057;
     padding: .375rem .75rem;
 }
@@ -58,6 +61,12 @@ textarea.formItem{
 @media (max-width: 760px) {
     .container {
         width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .form{
+        width: 100%;
+        padding: 0;
     }
 }
 
